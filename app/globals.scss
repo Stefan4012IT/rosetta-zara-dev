@@ -1,0 +1,33 @@
+$background: #ffffff;
+$foreground: #171717;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: $background;
+  color: $foreground;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+
+  h1 {
+    margin: 0 0 12px;
+    font-size: 32px;
+  }
+
+  p {
+    margin: 0;
+    color: #666666;
+  }
+}
